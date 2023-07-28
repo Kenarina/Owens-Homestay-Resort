@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--metadata for search engine optimization-->
+    <meta
+      name="description"
+      content="Owen's Homestay Resort is holiday and relaxation destination in Uganda providing a home environment. 
+    It is located on a 20 acre farm, about 50 Km north of the capital Kampala."
+    />
+    <meta
+      name="keywords"
+      content="homestay, kampala, farm, relaxation, holiday, Uganda, resort"
+    />
+    <meta name="author" content="Owen's Homestay Resort" />
+    <!--Title-->
+    <title>Owen's Homestay Resort</title>
+  </head>
+
+  <body>
+    <!--header-->
+    <header>
+      <h1>Welcome to Owen's Homestay Resort</h1>
+      <p>A countryside home environment for your relaxation.</p>
+    </header>
+    <!--Main Content -->
+    <main>
+      <nav>
+        <a href="#about">About us</a>
+        <a href="#activities">Activities</a>
+        <a href="#accomodation">Accomodation</a>
+        <a href="#gallery" target="_blank">Gallery</a>
+        <a href="#contact">Contact us</a>
+      </nav>
+      <!--About us section starts here-->
+
+      <section id="about">
+        <h2>About us</h2>
+        <p>
+          Owen's Homestay Resort provides a comfortable, down-to-earth relaxing
+          home feel for a refreshing holiday experience. Located on a 20-acre
+          mixed farm, about 50 Km North of Kampala Capital City, Owen's Homestay
+          Resort offers tranquility away from the hustle and bustle of city.
+          Visit our <a href="#activities">activities</a>
+          section to explore available activities that might interest you during
+          your stay.
+        </p>
+
+        <div>
+          <figure>
+            <img src="" />
+            <figcaption>Mango trees at Owen's Homestay</figcaption>
+          </figure>
+        </div>
+      </section>
+      <!--About us section ends here-->
+
+      <!--Activities section starts here-->
+
+      <section id="activities">
+        <h2>Activities</h2>
+        <p>
+          Whether you want to relax and enjoy the sun or discover what the farm
+          has to offer, there are several stress-free activities to keep you
+          engaged with nature in relaxed environment. These include:
+        </p>
+        <ul>
+          <li>Bird watching</li>
+          <li>Fruit picking</li>
+          <li>Honey harvesting</li>
+          <li>Sport fishing</li>
+          <li>Kitchen Gardening</li>
+        </ul>
+      </section>
+      <!--Accomodation section starts here-->
+      <section id="accomodation">
+        <h2>Accomodation</h2>
+
+        <aside>
+          <h4>Onsite fresh foodstuffs</h4>
+          <p>
+            You can obtain some fresh foodstuffs freely at the farm for your
+            private cooking - it's part of the experience :)
+          </p>
+        </aside>
+
+        <ol type="1">
+          <li>
+            Standard Cottage <br />
+            Features:
+          </li>
+
+          <ul>
+            <li>King size bed</li>
+            <li>Ensuite bathroom</li>
+            <li>
+              Private Kitchen with modern appliances (Gas cooker+electric oven,
+              dishwasher)
+            </li>
+            <li>Washing machine</li>
+            <li>Living area</li>
+            <li>WiFi</li>
+            <li>DSTV</li>
+          </ul>
+
+          <br />
+
+          <li>
+            Family Cottage <br />
+            Features:
+          </li>
+
+          <ul>
+            <li>1 bedroom with King size bed</li>
+            <li>2 rooms with a Full Double size bed</li>
+            <li>Ensuite bathroom</li>
+            <li>
+              Private Kitchen with modern appliances (Gas cooker+electric oven,
+              dishwasher)
+            </li>
+            <li>Washing machine</li>
+            <li>Living area</li>
+            <li>WiFi</li>
+            <li>DSTV</li>
+          </ul>
+        </ol>
+      </section>
+      <!--Insert a form for reservation of accomodation-->
+      <h3><em>Reservations:</em></h3>
+      <form action="https://formdump.codeinstitute.net/" method="post">
+        <input
+          id="stcottage"
+          name="accomodation"
+          type="radio"
+          value="standardcottage"
+        />
+        <label for="stcottage">Standard Cottage</label>
+        <br />
+        <input
+          id="famcottage"
+          name="accomodation"
+          type="radio"
+          value="familycottage"
+        />
+        <label for="famcottage">Family Cottage</label>
+        <br />
+        <label for="salutation">Salutation</label>
+        <input
+          list="salutation"
+          id="salutation"
+          name="salutation"
+          type="text"
+        />
+        <br />
+        <datalist>
+          <option value="Mr."></option>
+          <option value="Ms."></option>
+          <option value="Dr."></option>
+          <option value="Prof."></option>
+        </datalist>
+        <br />
+        <label for="firstname">First Name</label>
+        <input
+          id="firstname"
+          type="text"
+          name="firstname"
+          placeholder=" e.g. John"
+          required
+        />
+        <br />
+        <label for="lastname">Last Name</label>
+        <input
+          id="lastname"
+          type="text"
+          name="laststname"
+          placeholder="e.g. Smith"
+          required
+        />
+        <br />
+        <label for="email">Email Address</label>
+        <input type="email" required />
+        <br />
+        <label for="bookingnotes">Any specific requiredments?</label>
+        <br />
+        <textarea
+          id="bookingnotes"
+          rows="10"
+          cols="40"
+          name="bookingmessage"
+          placeholder="Any specific requirements?"
+        ></textarea>
+      </form>
+
+      <!-- Images for the gallery section to be placed here.-->
+
+      <section id="gallery">
+        <h2>Gallery</h2>
+        <figure id="gallery1">
+          <img src="https://imgur.com/13Ik1RI" />
+          <figcaption>Photo2</figcaption>
+        </figure>
+
+        <figure id="gallery2">
+          <img src="" />
+          <figcaption>Photo2</figcaption>
+        </figure>
+        <figure id="gallery3">
+          <img src="" />
+          <figcaption>Photo3</figcaption>
+        </figure>
+      </section>
+
+      <!--Contact information section starts here-->
+
+      <section id="contact">
+        <h2>Contact us:</h2>
+        <h3>Address:</h3>
+        <p>
+          Wabutungulu-Kirambula Village, <br />
+          Kyetume Parish, <br />
+          Zirobwe Sub county<br />
+          Luwero District, Uganda
+        </p>
+        <p>
+          Tel. +256 123 456 789 <br />
+          Email: info@owenshomestay.net
+        </p>
+        <br />
+
+        <form action="https://formdump.codeinstitute.net/" method="post">
+          <h3>Contact Form</h3>
+
+          <label for="fullname">Full Name</label>
+          <input id="fullname" type="text" name="Customer_Name" required />
+          <br />
+          <label for="email">Your Email</label>
+          <input id="email" type="text" name="Customer_email" required />
+
+          <br />
+
+          <label for="inquiries">Your message</label>
+          <br />
+          <textarea
+            id="inquiries"
+            rows="10"
+            cols="40"
+            name="inquiries"
+            placeholder="Write your message here.."
+          ></textarea>
+          <br />
+          <button tyupe="submit">Submit</button>
+        </form>
+
+        <br />
+
+        <!--Insert here the link to google maps for the physical loacation of the resort-->
+        <iframe
+          src="https://goo.gl/maps/zZSbyq322DnZvtuc7"
+          width="400"
+          height="200"
+        ></iframe>
+        <!--Footer section starts here-->
+        <hr />
+      </section>
+      <footer>
+        <a href="https://twitter.com/" aria-label="Go to our Twitter page (opens in new tab)" target="_blank">Twitter</a
+        >
+        <a
+          href="https://www.instagram.com/"
+          aria-label="Go to our Instagram page (opens in new tab)"
+          target="_blank"
+          >Instagram</a
+        >
+        <a
+          href="https://www.facebook.com/"
+          aria-label="Go to our Facebook page (opens in new tab)"
+          target="_blank"
+          >Facebook</a
+        >
+        <p>&copy Owen's Homestay Resort</p>
+      </footer>
+    </main>
+  </body>
+</html>
