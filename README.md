@@ -1,7 +1,7 @@
 
 # Owen's Homestay Resort #
 
-<p><img src=".devcontainer/build-assets/Images/Screenshots/screenshots.png" alt="Image of Screenshots of home page on various devices."></p>   
+<p><img src="assets/Images/Screenshots/screenshots.png" alt="Image of Screenshots of home page on various devices."></p>   
 
 ## Purpose of Project ##
 
@@ -26,20 +26,12 @@ The structure of the website was created based on the following wireframes crate
 
 ## Home Page ##
 
-<p><img src=".devcontainer/build-assets/Images/Wireframes/Home.png" alt="Wireframe for Home Page.">Wireframe for Home Page.</p>   
-  
-## Activities Page ##
-
-<p><img src=".devcontainer/build-assets/Images/Wireframes/Activities.png" alt="Wireframe for Activities Page.">Wireframe for Activites Page.</p>
-
-## Accommodation Page ##  
-
-<p><img src=".devcontainer/build-assets/Images/Wireframes/Accommodation.png" alt="Wireframe for Accommodation Page.">Wireframe for Accommodation Page.</p>  
+<p><img src="assets/Images/Wireframes/Home.png" alt="Wireframe for Home Page.">Wireframe for Home Page.</p>  
 
 ## Gallery Page ##
 
-<p><img src=".devcontainer/build-assets/Images/Wireframes/Gallery.png" alt="Wireframe for Gallery Page.">Wireframe for Gallery Page.</p>  
+<p><img src="assets/Images/Wireframes/Gallery.png" alt="Wireframe for Gallery Page.">Wireframe for Gallery Page.</p>  
 
 ## Contact Page ##
 
-<p><img src=".devcontainer/build-assets/Images/Wireframes/Contact.png" alt="Wireframe for Contact Page.">Wireframe for Contact Page.</p>  
+<p><img src="assets/Images/Wireframes/Contact.png" alt="Wireframe for Contact Page.">Wireframe for Contact Page.</p>  
