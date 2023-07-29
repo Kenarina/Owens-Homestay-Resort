@@ -1,7 +1,7 @@
 
 # Owen's Homestay Resort #
 
-<p><img src=".devcontainer/build-assets/Images/Screenshots/screenshots.png" alt="Image of Screenshots of home page on various devices.">Screenshots of Home Page.</p>   
+<p><img src=".devcontainer/build-assets/Images/Screenshots/screenshots.png" alt="Image of Screenshots of home page on various devices."></p>   
 
 ## Purpose of Project ##
 
