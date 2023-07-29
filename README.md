@@ -3,6 +3,8 @@
 
 <p><img src=".devcontainer/build-assets/Images/Screenshots/screenshots.png" alt="Image of Screenshots of home page on various devices.">Screenshots of Home Page.</p>   
 
+## Purpose of Project ##
+
 This project is intended to be a static website,based on HTML and CSS only as part of my participation in the Diploma in Full Stack Software Development programme of Code Institute.
 
 ## Description ##
