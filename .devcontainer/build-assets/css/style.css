@@ -1,6 +1,6 @@
 /* Header */
 header {
-    background-color: turquoise;
+    background-color: rgb(51, 255, 0);
 }
 /* Main Content */
 main {
@@ -8,5 +8,5 @@ main {
 }
 /* Footer */
 footer {
-    background-color: orange;
+    background-color: rgba(255, 166, 0, 0.979);
 }
