@@ -19,6 +19,14 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(57, 7, 78);
+    text-align: center;
+}
+
 /*Header*/
 header {
     background-color: rgb(37, 209, 109);
@@ -30,20 +38,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-top: 0%;
 }
 
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h1 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: rgb(57, 7, 78);
-    text-align: center;
 }
 
 #menu {
@@ -100,8 +99,25 @@ main {
     height: 600px;
     width: 100%;
     background: url("../Images/home/welcome.webp") no-repeat center center/cover;
+    position: relative;
 }
 
+#cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(221, 241, 107, 0.4);
+    font-size: 130%;
+    position: absolute;
+    bottom: 20px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 20px;
+    padding-left: 10px;;
+}
+
+#cover-text > h3 {
+    color: #19deec;
+    text-transform: initial;
+}
 
 /*Footer*/
 #social-networks {
@@ -159,6 +175,13 @@ main {
         /* Push main content down below larger header */
         margin-top: 79px;
     }
+ /* Welcome image */
+ #cover-text {
+    width: 200px;
+    right: 30px;
+  
+}
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
