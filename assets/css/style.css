@@ -95,6 +95,13 @@ main {
     flex: 1 0 auto;
     margin-top: 120px;
 }
+/*Welcome photo section*/
+#welcome {
+    height: 600px;
+    width: 100%;
+    background: url("../Images/home/welcome.webp") no-repeat center center/cover;
+}
+
 
 /*Footer*/
 #social-networks {
