@@ -40,18 +40,19 @@ h1 {
     letter-spacing: 2px;
     color: rgb(57, 7, 78);
     text-align: center;
-    text-size-adjust: ;
-}
+    }
 
 #menu {
     font-size: 110%;
-    letter-spacing: 2px;
-    word-spacing: 1cm;
-    text-align: center;
-    color: rgb(5, 4, 68);
+    letter-spacing: 4px;
+    list-style-type: none;
    
 }
 
+#menu > li {
+    margin-bottom: 1em;}
+
+    
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
