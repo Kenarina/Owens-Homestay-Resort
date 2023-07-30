@@ -124,5 +124,18 @@ footer {
         display: none;
     }
 
-    
+    #logo {
+        font-size: 180%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+        width: 100%;
+    }
+
+    /* Main content */
+    main {
+        /* Push main content down below larger header */
+        margin-top: 79px;
+    }
+
+
 }
