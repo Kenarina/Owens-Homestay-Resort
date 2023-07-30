@@ -144,6 +144,7 @@ main {
     background: url('../Images/home/about-us-image.webp') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
+    align-self: center;
     margin-bottom: 20px;
     /* Makes the square image into a circle */
     border-radius: 50%;
@@ -156,6 +157,17 @@ main {
     align-items: center;
     justify-content: center;
 }
+
+/* Gallery page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
 
 /*Footer*/
 #social-networks {
