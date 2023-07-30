@@ -45,37 +45,57 @@
         <!--Contact information section starts here-->
 
         <section id="contact">
-            <h2>Contact us:</h2>
-            <h3>Address:</h3>
-            <p>
-                Owens Crescent Road, <br />
-                Zirobwe Sub county<br />
-                Luwero District, Uganda
-            </p>
-            <p>
-                Tel. +256 123 456 789 <br />
-                Email: info@owenshomestay.net
-            </p>
-            <br />
+            <div id=" postal-address">
+                <h2>Contact us:</h2>
+                <h3>Address:</h3>
+                <p>
+                    Owens Crescent Road, <br />
+                    Zirobwe Sub county<br />
+                    Luwero District, Uganda
+                </p>
+                <p>
+                    Tel. +256 123 456 789 <br />
+                    Email: info@owenshomestay.net
+                </p>
+            </div>
 
-            <form action="https://formdump.codeinstitute.net/" method="post">
-                <h3>Contact Form</h3>
+            <hr>
 
-                <label for="fullname">Full Name</label>
-                <input id="fullname" type="text" name="Customer_Name" required />
-                <br />
-                <label for="email">Your Email</label>
-                <input id="email" type="text" name="Customer_email" required />
+            <div id="contact-form">
+                <form action="https://formdump.codeinstitute.net/" method="post">
+                    <h3>Contact Form</h3>
 
-                <br />
+                    <label for="mgender">Mr.</label>
+                    <input id="mgender" type="radio" name="mgender" checked />
 
-                <label for="inquiries">Your message</label>
-                <br />
-                <textarea id="inquiries" rows="10" cols="40" name="inquiries"
-                    placeholder="Write your message here.."></textarea>
-                <br />
-                <button tyupe="submit">Submit</button>
-            </form>
+                    <br />
+
+                    <label for="fgender">Ms.</label>
+                    <input id="fgender" type="radio" name="fgender"/>
+
+                    <br>
+
+                    <label for="firstname">First Name</label>
+                    <input id="firstname" type="text" name="First_Name" placeholder="Your first name." required />
+                    <br />
+                    <label for="lastname">Full Name</label>
+                    <input id="lastname" type="text" name="Last_Name" placeholder="Your last name" required />
+
+                    <br>
+
+                    <label for="email">Your Email</label>
+                    <input id="email" type="text" name="Customer_email" required />
+
+                    <br />
+
+                    <label for="inquiries">Your message</label>
+                    <br />
+                    <textarea id="inquiries" rows="10" cols="40" name="inquiries"
+                        placeholder="Write your message here.."></textarea>
+                    <br />
+                    <button tyupe="submit">Submit</button>
+                </form>
+            </div>
 
             <br />
 
