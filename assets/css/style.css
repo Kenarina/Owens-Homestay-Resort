@@ -1,7 +1,7 @@
 /*Google fonts import*/
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+<style>@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 </style>
+
 /*Asterisk wildcard selector to override deafult styles by the browser*/
 * {
     padding: 0%;
@@ -43,22 +43,24 @@ h1 {
     letter-spacing: 2px;
     color: rgb(57, 7, 78);
     text-align: center;
-    }
+}
 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
-   
+
 }
 
-#menu > li {
-    margin-bottom: 1em;}
+#menu>li {
+    margin-bottom: 1em;
+}
 
 
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
 nav {
     position: absolute;
     background-color: rgb(37, 209, 109);
@@ -67,9 +69,10 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
-    top: 100%;}
+    top: 100%;
+}
 
-    /* Nav toggle */
+/* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -80,6 +83,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    padding-right: 1rem;
 }
 
 
@@ -90,7 +94,35 @@ main {
     flex: 1 0 auto;
     margin-top: 48px;
 }
+
 /*Footer*/
 footer {
     background-color: orange;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /*Header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+
+    }
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    
 }
