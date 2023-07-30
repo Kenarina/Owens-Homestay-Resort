@@ -188,6 +188,36 @@ main {
     text-align: right;
 }
 
+/*Contact us section*/
+#contact {
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#contact p {
+    color: #b11b1b;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+}
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-input {
+    color: #fafafa;
+    width: 100%;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #photos {
@@ -253,17 +283,17 @@ main {
 
     #standard-cottage p,
     #family-cottage p {
-    text-align: center;
+        text-align: center;
     }
 
     #standard-cottage ul,
     #family-cottage ul {
-    text-align: center;
-    list-style-type: none;
+        text-align: center;
+        list-style-type: none;
     }
 
-     /* Gallery */
-     #photos {
+    /* Gallery */
+    #photos {
         column-count: 3;
     }
 
@@ -275,8 +305,8 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
 
-     /* Gallery */
-     #photos {
+    /* Gallery */
+    #photos {
         column-count: 4;
     }
 }
