@@ -92,7 +92,7 @@ main {
     background-color: rgb(112, 207, 207);
     /*Make main element take up surplus space to push footer down*/
     flex: 1 0 auto;
-    margin-top: 48px;
+    margin-top: 120px;
 }
 
 /*Footer*/
@@ -129,6 +129,7 @@ footer {
         line-height: 75px;
         margin: 0 0.5rem;
         width: 100%;
+        text-align: center;
     }
 
     /* Main content */
@@ -136,6 +137,11 @@ footer {
         /* Push main content down below larger header */
         margin-top: 79px;
     }
+}
 
-
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
