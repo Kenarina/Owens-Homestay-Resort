@@ -206,8 +206,8 @@ main {
 #input-form label{
     color: rgb(10, 10, 112);
     padding: 3px 6px;
-}
 
+}
 
 input {
     margin: 0.4rem;
@@ -316,13 +316,6 @@ input [type=text] {
         align-content: center;
     }
     
-    #signup-form {
-        max-width: 400px;
-        position: absolute;
-        left: 10%;
-        top: 150px;
-    }
-
     .text-input:hover {
         border-color: #f16c6b;
     }
