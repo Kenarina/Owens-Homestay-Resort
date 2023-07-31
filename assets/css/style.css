@@ -203,10 +203,11 @@ main {
     text-align: center;
     line-height: 1.5;
 }
-#input-form label{
+
+#input-form label {
     color: rgb(10, 10, 112);
     padding: 3px 6px;
-
+    
 }
 
 input {
@@ -224,7 +225,7 @@ input {
 input [type=text] {
     color: #fafafa;
     width: 50%;
-    margin: 8px 0 ;
+    margin: 8px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
     padding: 12px 12px;
@@ -315,7 +316,7 @@ input [type=text] {
     #contact-form {
         align-content: center;
     }
-    
+
     .text-input:hover {
         border-color: #f16c6b;
     }
