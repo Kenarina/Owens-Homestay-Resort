@@ -51,5 +51,41 @@ The website has been optimised for responsive display on mobile phones, tablets,
 
 <p><img src="assets\Images\OHR-Responsive-Home.webp" alt="Displays of the home page on various screen sizes."></p>  
 
-## Design themes fonts. ##
+## Design themes fonts. ##  
+
+The message from the website to the user is one of relaxation, a step away from the fast-paced "high octane" life of the city and work, to a place where they can recharge. The light shades of green, Teal and white exude a softness and  calming mood to the user. The text fonts, Open Sans and Oswald from [Google Fonts](https://fonts.google.com/) were preferred for this project. The text is easy on the eye.Images and and text were all used modestly to enhance the user experience. All images used in this project were previously taken personally. They were not outsourced externally.  
+
+## Testing ##
+Basic functionality to achieve desired disign outcomes were progressively done in an iterative process. The following tests were done manually during the coding process.  
+*Functionality of internal links, including the navigation bar links.
+*Functionality of external links.
+*Form validation  
+
+Verification of responsive desing. Google Chrome, Mozilla Firefox and Microsoft Edge were successfully used for this test.  
+
+Automatic HTML checking and CSS validation were done using [Nu Html Checker](https://validator.w3.org/nu/). All errors and bad code were corrected and recheked until only external links such as from Google Fonts triggered warnings.  
+
+One challenge that I still have even at submission is that I have not been able to dock the header such that scrolling of the main text upwards is not visible between the header and the browser bookmark or menu bar.  Everyhing else looks good at my stage of learning.
+
+##  Technologies ##
+
+[Codeanywhere](https://app.codeanywhere.com/) for HTML and CSS  
+[Visual Studio Code](https://code.visualstudio.com/) desktop version for HTML and CSS  
+[Google Fonts](https://fonts.google.com/) for fonts.  
+[favicon.io](https://favicon.io/favicon-converter/) to generate the favicon.  
+[COMPRESSORDIE](https://compress-or-die.com/) for web optimisation of images
+[FontAwesome](https://fontawesome.com/) for icons
+[Balsamiq](https://balsamiq.com/wireframes/) to make wireframes 
+[GitHub](https://github.com/) to hosting source code, to deploy and host the website.
+[Git](https://git-scm.com/) for version control.
+Microsoft Powerpoint for merging images prior to web optimisation for the readme text.
+
+Other resources, including course material from Code Institute, were consulted from time to time. Examples include:
+[StackOverflow](https://stackoverflow.com/), [W3schools](https://www.w3schools.com/) and [TutorialRepublic](https://www.tutorialrepublic.com/). However, the course material from Code Institute was the primary resource.
+
+## Deployment ##
+
+
+
+
 
