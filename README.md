@@ -11,6 +11,8 @@ This project is intended to be a static website,based on HTML and CSS only as pa
 
 Owen's Home Stay Resort (OHR) is showcased as a home-away-from-home destination which offers a quiet and relaxation environment in family home setting. It is presented as an ideal coutryside get-away.Located on a 20 acre farm, OHR provides an opportunity for visitors to get involved in light work on the farm as part of their relaxation.  
 
+The live site is available [here](https://kenarina.github.io/Owens-Homestay-Resort/)
+
 # UX/UI Design #
 
 ## User stories ##
@@ -73,18 +75,46 @@ One challenge that I still have even at submission is that I have not been able 
 [Visual Studio Code](https://code.visualstudio.com/) desktop version for HTML and CSS  
 [Google Fonts](https://fonts.google.com/) for fonts.  
 [favicon.io](https://favicon.io/favicon-converter/) to generate the favicon.  
-[COMPRESSORDIE](https://compress-or-die.com/) for web optimisation of images
-[FontAwesome](https://fontawesome.com/) for icons
-[Balsamiq](https://balsamiq.com/wireframes/) to make wireframes 
-[GitHub](https://github.com/) to hosting source code, to deploy and host the website.
-[Git](https://git-scm.com/) for version control.
-Microsoft Powerpoint for merging images prior to web optimisation for the readme text.
+[COMPRESSORDIE](https://compress-or-die.com/) for web optimisation of images  
+[FontAwesome](https://fontawesome.com/) for icons  
+[Balsamiq](https://balsamiq.com/wireframes/) to make wireframes  
+[GitHub](https://github.com/) to hosting source code, to deploy and host the website.  
+[Git](https://git-scm.com/) for version control.  
+Microsoft Powerpoint for merging images prior to web optimisation for the readme text.  
 
-Other resources, including course material from Code Institute, were consulted from time to time. Examples include:
-[StackOverflow](https://stackoverflow.com/), [W3schools](https://www.w3schools.com/) and [TutorialRepublic](https://www.tutorialrepublic.com/). However, the course material from Code Institute was the primary resource.
+Other resources, including course material from Code Institute, were consulted from time to time. Examples include: [StackOverflow](https://stackoverflow.com/), [W3schools](https://www.w3schools.com/) and [TutorialRepublic](https://www.tutorialrepublic.com/). However, the course material from Code Institute was the primary resource.  
 
 ## Deployment ##
 
+This project was deployed to GitHub pages and the site is up and running.
+
+### Deployment procedure: ###
+
+*Log into GitHub.  
+*Select **Owens-Homestay-Resort** from the list of repositories.  
+*Select Settings and next, on the left side down-menu, select pages.  
+*Under Source, select main and the *default value /(root)*.  
+*Press Save.  
+*A notification for deployment will appear. Refresh the page, and the link to the deployed site will be available in a green sub-section on the top of the page.  
+*Click on the link to go to the live deployed page.  
+
+The live link can be found [here](https://kenarina.github.io/Owens-Homestay-Resort/).
+
+### How to run this project Locally (I used VSCode)###
+
+**Clone the repository**  
+
+*Navigate to the **Owens-Homestay-Resort** GitHub Repository.  
+*Click the Code drop-down menu.  
+*Click the HTTPS sub-heading under the Clone heading.  
+*Copy the link.  
+*Open VSCode.  
+*Open a terminal in the directory of your choice, type git clone and paste the link.  
+*A clone of the repository will now be created on your machine.  
+
+## Acknowledgements ##
+
+While I came up with the original idea for this project, I would not have brought it up to this stage had it not been for Ronan McClelland, my mentor on this journey. His wealth of experience and patience have been very inspirational.
 
 
 
