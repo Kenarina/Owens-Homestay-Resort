@@ -65,35 +65,38 @@
                 <form action="https://formdump.codeinstitute.net/" method="post">
                     <h3>Contact Form</h3>
 
-                    <label for="mgender">Mr.</label>
-                    <input id="mgender" type="radio" name="mgender" checked />
+                    <fieldset id="input-form">
+                        <legend>Your details and message </legend>
+                        <label for="mgender">Mr.</label>
+                        <input id="mgender" type="radio" name="mgender" checked />
 
-                    <br />
+                        <br />
 
-                    <label for="fgender">Ms.</label>
-                    <input id="fgender" type="radio" name="fgender"/>
+                        <label for="fgender">Ms.</label>
+                        <input id="fgender" type="radio" name="fgender" />
 
-                    <br>
+                        <br>
 
-                    <label for="firstname">First Name</label>
-                    <input id="firstname" type="text" name="First_Name" placeholder="Your first name." required />
-                    <br />
-                    <label for="lastname">Full Name</label>
-                    <input id="lastname" type="text" name="Last_Name" placeholder="Your last name" required />
+                        <label for="firstname">First Name</label>
+                        <input id="firstname" type="text" name="First_Name" placeholder="Your first name." required />
+                        <br />
+                        <label for="lastname">Full Name</label>
+                        <input id="lastname" type="text" name="Last_Name" placeholder="Your last name" required />
 
-                    <br>
+                        <br>
 
-                    <label for="email">Your Email</label>
-                    <input id="email" type="text" name="Customer_email" required />
+                        <label for="email">Your Email</label>
+                        <input id="email" type="text" name="Customer_email" required />
 
-                    <br />
+                        <br />
 
-                    <label for="inquiries">Your message</label>
-                    <br />
-                    <textarea id="inquiries" rows="10" cols="25" class="none" name="inquiries"
-                        placeholder="Write your message here.."></textarea>
-                    <br />
-                    <button tyupe="submit">Submit</button>
+                        <label for="inquiries">Your message</label>
+                        <br />
+                        <textarea id="inquiries" rows="10" cols="25" class="none" name="inquiries"
+                            placeholder="Write your message here.."></textarea>
+                        <br />
+                        <button tyupe="submit">Submit</button>
+                    </fieldset>
                 </form>
             </div>
 
