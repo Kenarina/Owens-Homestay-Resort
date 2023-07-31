@@ -1,8 +1,6 @@
 
 # Owen's Homestay Resort #
 
-<p><img src="assets/Images/Screenshots/screenshots.png" alt="Image of Screenshots of home page on various devices."></p>   
-
 ## Purpose of Project ##
 
 This project is intended to be a static website,based on HTML and CSS only as part of my participation in the Diploma in Full Stack Software Development programme of Code Institute.
@@ -51,7 +49,7 @@ Telephone, email social media links and a feedback form have been assigned to th
 The website has been optimised for responsive display on mobile phones, tablets, labtops and large screens, as exemplified in the images here:
 <p><img src="assets\Images\OHR-Responsive-Home.webp" alt="Displays of the home page on various screen sizes."></p>  
 
-<p><img src="assets\Images\OHR-Responsive-Home.webp" alt="Displays of the home page on various screen sizes."></p>  
+<p><img src="assets\Images\OHR-Responsive-gallery.webp" alt="Displays of the gallery page on various screen sizes."></p>  
 
 ## Design themes fonts. ##  
 
