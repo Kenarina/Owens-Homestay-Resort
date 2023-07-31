@@ -100,7 +100,7 @@ This project was deployed to GitHub pages and the site is up and running.
 
 The live link can be found [here](https://kenarina.github.io/Owens-Homestay-Resort/).
 
-### How to run this project Locally (I used VSCode)###
+### How to run this project Locally (I used VSCode) ###
 
 **Clone the repository**  
 
